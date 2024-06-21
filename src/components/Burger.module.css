@@ -1,0 +1,119 @@
+@media (max-width: 575px) {
+  .open {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 19vh;
+    background-color: white;
+  }
+  .container {
+    margin: 0;
+  }
+  .container p {
+    font-size: 15px;
+  }
+  .container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .container li {
+    border-bottom: 1px black solid;
+  }
+}
+@media (min-width: 576px) {
+  .open {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 13vh;
+    background-color: white;
+  }
+  .container {
+    margin: 0;
+  }
+  .container p {
+    font-size: 17px;
+  }
+  .container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .container li {
+    border-bottom: 1px black solid;
+  }
+}
+@media (min-width: 768px) {
+  .open {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 15vh;
+    background-color: white;
+  }
+  .container {
+    margin: 0;
+  }
+  .container p {
+    font-size: 20px;
+  }
+  .container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .container li {
+    border-bottom: 1px black solid;
+  }
+}
+@media (min-width: 992px) {
+  .open {
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    background-color: white;
+  }
+  .container p {
+    font-size: 25px;
+  }
+  .container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .container li {
+    border-bottom: 1px black solid;
+  }
+}
+@media (min-width: 1200px) {
+  .container p {
+    font-size: 15px;
+  }
+  .container {
+  }
+  .container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container li {
+    border-bottom: 1px black solid;
+  }
+}

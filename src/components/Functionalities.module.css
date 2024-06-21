@@ -1,0 +1,127 @@
+@media (max-width: 575px) {
+  .container {
+    margin-top: 0px;
+    text-align: left;
+  }
+  .funcs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  .funcs img {
+    height: 300px;
+    margin-top: 25px;
+  }
+  .tabs {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    margin-top: 0px;
+    text-align: left;
+  }
+  .funcs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  .funcs img {
+    height: 450px;
+  }
+  .tabs {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    margin-top: 0px;
+    text-align: left;
+  }
+  .funcs {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .funcs img {
+    height: 300px;
+    margin-right: 50px;
+  }
+  .tabs {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    margin-top: 0px;
+    text-align: left;
+  }
+
+  .funcs img {
+    height: 400px;
+    margin-right: 100px;
+  }
+  .tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 20px;
+  }
+  .funcs {
+    display: flex;
+
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    margin-top: 0px;
+    text-align: left;
+  }
+  .container h1 {
+  }
+  .funcs img {
+    height: 500px;
+    margin-right: 10vw;
+  }
+  .tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 35px;
+  }
+  .funcs {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-top: 30px;
+    flex-direction: row;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

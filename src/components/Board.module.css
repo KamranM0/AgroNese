@@ -1,0 +1,224 @@
+@media (max-width: 575px) {
+  .mockup img {
+    height: 150px;
+    width: 112.5px;
+    justify-content: center;
+    margin-right: 40px;
+  }
+  .text {
+    width: 70%;
+  }
+  .board {
+    width: 95%;
+    min-height: 100px;
+    border-radius: 20px;
+    gap: 10px;
+  }
+  .board h1 {
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .board p {
+    font-size: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+    opacity: 0.8;
+  }
+  .board button {
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 10px;
+    width: 50px;
+    height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .board a {
+    margin-left: 15px;
+    font-size: 10px;
+  }
+}
+@media (min-width: 576px) {
+  .mockup img {
+    width: 150px;
+    height: 200px;
+    margin-right: 70px;
+    justify-content: center;
+  }
+  .board {
+    width: 95%;
+    min-height: 120px;
+    border-radius: 50px;
+    gap: 10px;
+  }
+  .board h1 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .board p {
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 30px;
+    opacity: 0.8;
+  }
+  .board button {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+    width: 70px;
+    height: 40px;
+    margin-bottom: 30px;
+  }
+
+  .board a {
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mockup img {
+    width: 175px;
+    height: 233px;
+    margin-right: 80px;
+    justify-content: center;
+  }
+  .board {
+    width: 95%;
+    min-height: 120px;
+    border-radius: 50px;
+    gap: 10px;
+  }
+  .board h1 {
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .board p {
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: 40px;
+    opacity: 0.8;
+  }
+  .board button {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 15px;
+    width: 80px;
+    height: 40px;
+    margin-bottom: 40px;
+  }
+
+  .board a {
+    margin-left: 40px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mockup img {
+    width: 250px;
+    height: 324px;
+    margin-right: 100px;
+    justify-content: center;
+  }
+  .board {
+    margin-top: 20px;
+    width: 95%;
+    min-height: 170px;
+    border-radius: 70px;
+    gap: 10px;
+  }
+  .board h1 {
+    font-size: 35px;
+    margin-top: 60px;
+    margin-left: 60px;
+  }
+  .board p {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 60px;
+    opacity: 0.8;
+  }
+  .board button {
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    font-size: 19px;
+    width: 100px;
+    height: 50px;
+    margin-bottom: 40px;
+  }
+
+  .board a {
+    font-size: 19px;
+    margin-left: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mockup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mockup img {
+    width: 300px;
+    height: 400px;
+    margin-right: 150px;
+    justify-content: center;
+  }
+  .board {
+    margin-top: 20px;
+    width: 96%;
+    min-height: 200px;
+    border-radius: 70px;
+    gap: 30px;
+  }
+  .board h1 {
+    font-size: 50px;
+    margin-top: 110px;
+    margin-left: 110px;
+  }
+  .board p {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 110px;
+    opacity: 0.8;
+  }
+  .board button {
+    margin-top: 40px;
+    margin-left: 110px;
+    font-size: 25px;
+    width: 170px;
+    height: 70px;
+    margin-bottom: 110px;
+  }
+
+  .board a {
+    margin-left: 80px;
+    font-size: 25px;
+  }
+}
+.board {
+  color: #fff;
+  display: flex;
+  background-color: #181a1b;
+  justify-content: space-between;
+}
+
+.text {
+  width: 50%;
+}
+
+.board a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.8;
+}
+.mockup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

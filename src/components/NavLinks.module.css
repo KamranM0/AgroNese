@@ -1,0 +1,14 @@
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.links ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+.links li {
+  cursor: pointer;
+}
