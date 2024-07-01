@@ -24,6 +24,9 @@ function NavBar({ toggleIcon, isBurgerOpen, setIsBurgerOpen }) {
         isBurgerOpen={isBurgerOpen}
         toggleIcon={toggleIcon}
       />
+      <Button type={"primary"} onClick={() => navigate("form")}>
+        Giriş
+      </Button>
       {/* <Button type={"primary"}>Giriş</Button> */}
     </div>
   );
