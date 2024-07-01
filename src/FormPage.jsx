@@ -43,7 +43,7 @@ function FormPage() {
 
   // Function to send Telegram notification
   const sendTelegramNotification = async () => {
-    const chatId = "-4266523229"; // Replace with your actual chat ID
+    const chatId = "-1002188196682"; // Replace with your actual chat ID
     const botToken = "7082201574:AAEncqXODJwK9rDKPN54KZSXrE54AgyyEmg"; // Replace with your bot token
 
     const message = `New form submission:\n\nName: ${name}\nSurname: ${surName}\nMessage: ${area}`;
