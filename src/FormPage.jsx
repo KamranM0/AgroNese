@@ -1,11 +1,13 @@
 import { useState } from "react";
 import styles from "./FormPage.module.css";
 import Button from "./components/Button";
+import { useNavigate } from "react-router-dom";
 function FormPage() {
   const [name, setName] = useState("");
   const [surName, setSurName] = useState("");
   const [number, setNumber] = useState(null);
   const [area, setArea] = useState(null);
+  const navigate = useNavigate();
   function handleName(e) {
     setName(e.target.value);
   }
@@ -36,6 +38,7 @@ function FormPage() {
     await sendTelegramNotification();
     alert("Form submitted successfully!");
     reset();
+    navigate("/");
   }
 
   // Function to send Telegram notification
