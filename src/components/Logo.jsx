@@ -3,7 +3,7 @@ function Logo() {
   return (
     <div className={styles.logo}>
       <img src="/logo.png" alt="logo"></img>
-      <p>AgroNse</p>
+      <p>Agrose</p>
     </div>
   );
 }
