@@ -5,6 +5,7 @@ import styles from "./HomeLayout.module.css";
 import Services from "./Services";
 import Testimonials from "./Testimonials";
 import { Element } from "react-scroll";
+import Form from "./Form";
 function HomeLayout() {
   return (
     <div className={styles.home}>
@@ -14,6 +15,7 @@ function HomeLayout() {
 
       <Functionalities />
       <Testimonials />
+      <Form />
     </div>
   );
 }

@@ -102,11 +102,13 @@
   h1 {
     font-family: "MyCustomFont", sans-serif;
     font-size: 55px;
+    text-align: left;
     margin-left: 35px;
   }
   h2 {
     font-size: 30px;
     font-weight: 500;
+    margin-left: 35px;
   }
   p {
     margin-left: 35px;

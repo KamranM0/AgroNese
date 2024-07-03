@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import styles from "./Board.module.css";
 import Button from "./Button";
+import { useMediaQueries } from "../hooks/UseMedia";
 function Board() {
+  const { lg, sm } = useMediaQueries();
   return (
     <div className={styles.board}>
       <div className={styles.text}>
@@ -16,9 +18,11 @@ function Board() {
         <Button type={"primary"}>Yüklə</Button>
         <Link>Daha ətraflı</Link>
       </div>
-      <div className={styles.mockup}>
-        <img src="phone1.png" alt="phone"></img>
-      </div>
+      {!sm && (
+        <div className={styles.mockup}>
+          <img src="phone1.png" alt="phone"></img>
+        </div>
+      )}
     </div>
   );
 }

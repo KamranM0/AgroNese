@@ -20,12 +20,7 @@ function FormPage() {
   function handleArea(e) {
     setArea(e.target.value);
   }
-  function reset() {
-    setName("");
-    setSurName("");
-    setNumber("");
-    setArea("");
-  }
+
   async function handleSubmit(e) {
     e.preventDefault();
     // const response = await fetch("https://example.com/submit-form", {
@@ -35,30 +30,10 @@ function FormPage() {
     //   },
     //   body: JSON.stringify(formData),
     // });
-    await sendTelegramNotification();
-    alert("Form submitted successfully!");
-    reset();
-    navigate("/");
   }
 
   // Function to send Telegram notification
-  const sendTelegramNotification = async () => {
-    const chatId = "-1002188196682"; // Replace with your actual chat ID
-    const botToken = "7082201574:AAEncqXODJwK9rDKPN54KZSXrE54AgyyEmg"; // Replace with your bot token
 
-    const message = `New form submission:\n\nName: ${name}\nSurname: ${surName}\nMessage: ${area}`;
-
-    try {
-      await fetch(
-        `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(
-          message
-        )}`
-      );
-      console.log("Telegram notification sent successfully");
-    } catch (error) {
-      console.error("Error sending Telegram notification:", error);
-    }
-  };
   return (
     <div className={styles.container}>
       <form>

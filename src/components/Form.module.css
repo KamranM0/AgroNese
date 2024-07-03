@@ -1,0 +1,453 @@
+@media (max-width: 575px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .form {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 20px;
+    width: 50%;
+    text-align: left;
+    justify-content: left;
+  }
+
+  .number {
+    margin-left: 15px;
+    display: flex;
+
+    align-items: center;
+  }
+  .form h2 {
+    margin-left: 17px;
+    font-size: 15px;
+  }
+  .form p {
+    font-size: 13px;
+  }
+  .form svg {
+    width: 20px;
+    margin-left: 0;
+  }
+  .number h2 {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .formInputs {
+    display: grid;
+    background-color: #d5fad5;
+    grid-template-columns: 1fr;
+
+    gap: 5px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-right: 15px;
+  }
+  .formInputs input {
+    font-family: "MyCustomFont";
+
+    height: 40px;
+    grid-column: span 2;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+  }
+  .formInputs .withSelect {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+  }
+  .withSelect input {
+    width: 70%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .withSelect select {
+    width: 30%;
+    text-align: center;
+    font-size: 13px;
+    font-family: "MyCustomFont";
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .formInputs .fullWidth {
+    height: 60px;
+    grid-column: span 2;
+    font-size: 15px;
+  }
+  .formInputs textarea {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-family: "MyCustomFont";
+  }
+  .formInputs .button {
+    height: 40px;
+    width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .form {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 40px;
+    width: 40%;
+    text-align: left;
+    justify-content: left;
+  }
+
+  .number {
+    margin-left: 15px;
+    display: flex;
+
+    align-items: center;
+  }
+  .form h2 {
+    margin-left: 17px;
+    font-size: 23px;
+  }
+  .form svg {
+    width: 30px;
+    margin-left: 0;
+  }
+  .number h2 {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  .formInputs {
+    display: grid;
+    background-color: #d5fad5;
+    grid-template-columns: 1fr;
+
+    gap: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-right: 15px;
+  }
+  .formInputs input {
+    font-family: "MyCustomFont";
+
+    height: 50px;
+    grid-column: span 2;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+  }
+  .formInputs .withSelect {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+  }
+  .withSelect input {
+    width: 70%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .withSelect select {
+    width: 30%;
+    text-align: center;
+    font-size: 15px;
+    font-family: "MyCustomFont";
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .formInputs .fullWidth {
+    height: 80px;
+    grid-column: span 2;
+    font-size: 20px;
+  }
+  .formInputs textarea {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-family: "MyCustomFont";
+  }
+  .formInputs .button {
+    height: 40px;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+  }
+  .form {
+    display: flex;
+    flex-direction: row;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 40%;
+  }
+  .form h2 {
+    margin-left: 15px;
+    font-size: 25px;
+  }
+  .number {
+    margin-left: 35px;
+    display: flex;
+
+    align-items: center;
+  }
+  .number h2 {
+    margin-left: 10px;
+    font-size: 25px;
+  }
+  .formInputs {
+    display: grid;
+    background-color: #d5fad5;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 15px;
+    padding: 30px;
+    margin: 0 auto;
+  }
+  .formInputs input {
+    font-family: "MyCustomFont";
+    width: 150px;
+    height: 45px;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+  }
+  .formInputs .withSelect {
+    box-sizing: border-box;
+    display: flex;
+    width: 150px;
+  }
+  .withSelect input {
+    width: 70%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .withSelect select {
+    width: 30%;
+    text-align: center;
+    font-size: 14px;
+    font-family: "MyCustomFont";
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .formInputs .fullWidth {
+    height: 60px;
+    grid-column: span 2;
+    font-size: 15px;
+  }
+  .formInputs .fullWidth button {
+    width: 100%;
+    grid-column: span 2;
+  }
+  .formInputs textarea {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-family: "MyCustomFont";
+  }
+  .formInputs .button {
+    height: 40px;
+    width: 100%;
+    grid-column: span 2;
+  }
+  .form svg {
+    width: 40px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  .form {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 40%;
+  }
+
+  .number {
+    margin-left: 35px;
+    display: flex;
+
+    align-items: center;
+  }
+  .form h2 {
+    margin-left: 20px;
+  }
+  .number h2 {
+    margin-left: 10px;
+  }
+  .formInputs {
+    display: grid;
+    background-color: #d5fad5;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 15px;
+    padding: 25px;
+    margin: 0 auto;
+    margin-right: 20px;
+  }
+  .formInputs input {
+    font-family: "MyCustomFont";
+    width: 250px;
+    height: 55px;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+  }
+  .formInputs .withSelect {
+    box-sizing: border-box;
+    display: flex;
+    width: 250px;
+  }
+  .withSelect input {
+    width: 70%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .withSelect select {
+    width: 30%;
+    text-align: center;
+    font-size: 17px;
+    font-family: "MyCustomFont";
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .formInputs .fullWidth {
+    width: 100%;
+    height: 70px;
+    grid-column: span 2;
+    font-size: 20px;
+  }
+  .formInputs textarea {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-family: "MyCustomFont";
+  }
+  .formInputs .button {
+    height: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+  }
+  .form {
+    display: flex;
+    flex-direction: row;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    width: 40%;
+  }
+
+  .number {
+    margin-left: 35px;
+    display: flex;
+
+    align-items: center;
+  }
+  .number h2 {
+    margin-left: 20px;
+  }
+  .formInputs {
+    display: grid;
+    background-color: #d5fad5;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 15px;
+    padding: 50px;
+    margin: 0 auto;
+  }
+  .formInputs input {
+    font-family: "MyCustomFont";
+    width: 250px;
+    height: 55px;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+  }
+  .formInputs .withSelect {
+    box-sizing: border-box;
+    display: flex;
+    width: 250px;
+  }
+  .withSelect input {
+    width: 70%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .withSelect select {
+    width: 30%;
+    text-align: center;
+    font-size: 17px;
+    font-family: "MyCustomFont";
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .formInputs .fullWidth {
+    width: 100%;
+    height: 70px;
+    grid-column: span 2;
+    font-size: 20px;
+  }
+  .formInputs textarea {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-family: "MyCustomFont";
+  }
+  .formInputs .button {
+    height: 50px;
+  }
+}

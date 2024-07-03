@@ -19,14 +19,16 @@ function NavBar({ toggleIcon, isBurgerOpen, setIsBurgerOpen }) {
   ) : (
     <div className={styles.nav}>
       <Logo />
-      <Burger
-        setIsBurgerOpen={setIsBurgerOpen}
-        isBurgerOpen={isBurgerOpen}
-        toggleIcon={toggleIcon}
-      />
-      <Button type={"primary"} onClick={() => navigate("form")}>
-        Giriş
-      </Button>
+      <div className={styles.container}>
+        <Burger
+          setIsBurgerOpen={setIsBurgerOpen}
+          isBurgerOpen={isBurgerOpen}
+          toggleIcon={toggleIcon}
+        />
+        <Button type={"primary"} onClick={() => navigate("form")}>
+          Giriş
+        </Button>
+      </div>
       {/* <Button type={"primary"}>Giriş</Button> */}
     </div>
   );

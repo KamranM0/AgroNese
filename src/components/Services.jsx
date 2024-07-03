@@ -4,7 +4,7 @@ import ServicesSection from "./ServicesSection";
 function Services() {
   return (
     <Element name="services" className={styles.services}>
-      <div>
+      <div className={styles.container}>
         <h1>Xidmətlərimiz</h1>
         <p>
           Bölmələrimizi daha diqqətli araşdıraraq xidmətlərimiz haqqında ətraflı
@@ -19,6 +19,9 @@ function Services() {
           </ServicesSection>
           <ServicesSection imageSrc={"/img3.jpg"}>
             <h2>Hava haqqında proqnoz</h2>
+          </ServicesSection>
+          <ServicesSection imageSrc={"/img4.jpg"}>
+            <h2>7/24 Fermer dəstəyi</h2>
           </ServicesSection>
         </div>
       </div>
