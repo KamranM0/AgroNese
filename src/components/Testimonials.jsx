@@ -14,15 +14,22 @@ function Testimonials() {
       user: "Firudin Qasımov",
       loc: "Masallı, Qızılağac kəndi",
       comment:
-        "AgroNese sayəsində bütün əkinlərimi, həmçinin hava proqnozunu rahatlıqla izləyə bilirəm. Nəsə problem yarananda ekspertlər yorulmadan köməklik göstərir. Yükləyin, yüklətdirin!🐮",
+        "FermerApp sayəsində bütün əkinlərimi, həmçinin hava proqnozunu rahatlıqla izləyə bilirəm. Nəsə problem yarananda ekspertlər yorulmadan köməklik göstərir. Yükləyin, yüklətdirin!🐮",
       color: "#F9D8D6",
     },
     {
       user: "Əbülfəz Mirəliyev",
       loc: "Qax, Armudlu kəndi",
       comment:
-        "Geniş məlumat bazası mənə əkinlərimdə yaranan problemləri həll etməkdə çox kömək edir! Təşəkkürlər AgroNese!",
+        "Geniş məlumat bazası mənə əkinlərimdə yaranan problemləri həll etməkdə çox kömək edir! Təşəkkürlər FermerApp!",
       color: "#EFF9DA",
+    },
+    {
+      user: "Əli Quliyev",
+      loc: "Lənkəran, Xanbulan kəndi",
+      comment:
+        "Bu proqram işimi çox rahatlaşdırdı. FermerApp vasitəsilə artıq nəvələrimə daha çox vaxt ayıra bilirəm. Xalım 5 üstündən 5!!🥰",
+      color: "#C4A87A",
     },
   ];
 

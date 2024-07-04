@@ -3,7 +3,7 @@ import styles from "./Footer.module.css";
 function Footer() {
   return (
     <footer className={styles.footer}>
-      <p>© AgroNese</p>
+      <p>© FermerApp</p>
       <ul>
         <Link>
           <li>Haqqımızda</li>
