@@ -30,12 +30,14 @@ function Testimonials() {
     <Element name="testimonials" className={styles.container}>
       <div>
         <h1>Müştəri məmnuniyyəti</h1>
-        <div className={styles.testimonials}>
-          {items.map((el) => (
-            <TestimonialItem color={el.color} user={el.user} loc={el.loc}>
-              {el.comment}
-            </TestimonialItem>
-          ))}
+        <div className={styles.carousel}>
+          <div className={styles.carouselInner}>
+            {items.map((el) => (
+              <TestimonialItem color={el.color} user={el.user} loc={el.loc}>
+                {el.comment}
+              </TestimonialItem>
+            ))}
+          </div>
         </div>
       </div>
     </Element>
@@ -43,7 +45,10 @@ function Testimonials() {
 }
 function TestimonialItem({ children, user, loc, color }) {
   return (
-    <div className={styles.item} style={{ backgroundColor: color }}>
+    <div
+      className={`${styles.carouselItem} ${styles.active} ${styles.item}`}
+      style={{ backgroundColor: color }}
+    >
       <h2>{user}</h2>
       <p className={styles.location}>{loc}</p>
       <p className={styles.comment}>{children}</p>

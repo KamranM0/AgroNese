@@ -8,13 +8,13 @@
   .form {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
   }
   .contact {
     display: flex;
     flex-direction: column;
     margin-top: 40px;
-    gap: 20px;
+    gap: 10px;
     width: 50%;
     text-align: left;
     justify-content: left;
@@ -38,14 +38,14 @@
     margin-left: 0;
   }
   .number h2 {
-    margin-left: 10px;
+    margin-left: 3px;
     font-size: 14px;
   }
   .formInputs {
     display: grid;
     background-color: #d5fad5;
     grid-template-columns: 1fr;
-
+    width: 50%;
     gap: 5px;
     padding: 15px;
     margin: 0 auto;
@@ -60,7 +60,7 @@
     box-sizing: border-box;
     border-radius: 5px;
     border: none;
-    font-size: 15px;
+    font-size: 13px;
   }
   .formInputs .withSelect {
     box-sizing: border-box;
@@ -83,7 +83,7 @@
   .formInputs .fullWidth {
     height: 60px;
     grid-column: span 2;
-    font-size: 15px;
+    font-size: 13px;
   }
   .formInputs textarea {
     padding: 5px;
