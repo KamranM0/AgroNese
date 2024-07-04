@@ -21,6 +21,14 @@ function Form() {
   }
   async function handleSubmit(e) {
     e.preventDefault();
+    if (
+      name === "" ||
+      surName === "" ||
+      number === "" ||
+      area === "" ||
+      areaUnit === ""
+    )
+      return;
     await sendTelegramNotification(
       name,
       surName,
@@ -58,18 +66,21 @@ function Form() {
         </div>
         <form className={styles.formInputs}>
           <input
+            required
             type="text"
             placeholder="Adınız"
             value={name}
             onChange={(e) => setName(e.target.value)}
           ></input>
           <input
+            required
             type="text"
             placeholder="Soyadınız"
             value={surName}
             onChange={(e) => setSurName(e.target.value)}
           ></input>
           <input
+            required
             type="number"
             placeholder="Mobil nömrə"
             value={number}
@@ -77,6 +88,7 @@ function Form() {
           ></input>
           <div className={styles.withSelect}>
             <input
+              required
               type="number"
               placeholder="Ərazinin sahəsi"
               value={area}
