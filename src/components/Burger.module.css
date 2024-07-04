@@ -1,20 +1,17 @@
 @media (max-width: 575px) {
-  .container {
-    transition: height 3s ease-in-out;
-  }
   .container.open {
     padding-top: 10px;
     z-index: 1000;
     position: fixed;
+    top: 40px;
     width: 100%;
     display: flex;
     justify-content: center;
     min-height: 20vh;
     background-color: white;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
   }
   .container {
-    margin: 0;
   }
   .container p {
     font-size: 15px;

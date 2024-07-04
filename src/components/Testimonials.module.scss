@@ -1,3 +1,4 @@
+$nb-slides: 5;
 @media (max-width: 575px) {
   .container {
     display: flex;
@@ -165,7 +166,56 @@
     margin-right: 25px;
   }
 }
-
+@media (min-width: 1200px) {
+  .container {
+    width: 80%;
+    max-inline-size: var(--size-content-3);
+    overflow: hidden;
+    -webkit-mask: linear-gradient(
+          90deg,
+          transparent 0,
+          black 15% 85%,
+          transparent
+        )
+        0 50% / 100% calc(100% - (2 * var(--size-4))) no-repeat,
+      linear-gradient(0deg, black, black) 50% 0 / 100% var(--size-4) no-repeat,
+      linear-gradient(0deg, black, black) 50% 100% / 100% var(--size-4)
+        no-repeat;
+  }
+  .container h1 {
+    font-size: 55px;
+    margin-left: 35px;
+  }
+  .testimonials {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    margin-bottom: 20px;
+  }
+  .item {
+    border-radius: 50px;
+    width: 380px;
+    height: 380px;
+  }
+  .item h2 {
+    font-size: 30px;
+    margin: 30px;
+    margin-bottom: 5px;
+  }
+  .location {
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .comment {
+    margin-left: 30px;
+    font-size: 21px;
+    margin-top: 30px;
+    margin-right: 30px;
+  }
+}
 @media (min-width: 1200px) {
   .container {
     display: flex;
