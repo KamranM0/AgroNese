@@ -6,14 +6,21 @@ import Services from "./Services";
 import Testimonials from "./Testimonials";
 import { Element } from "react-scroll";
 import Form from "./Form";
+import { useMediaQueries } from "../hooks/UseMedia";
+import FunctionalitiesMobile from "./FunctionalitiesMobile";
 function HomeLayout() {
+  const { sm } = useMediaQueries();
   return (
     <div className={styles.home}>
       <Board></Board>
 
       <Services />
+      {!sm ? (
+        <Functionalities />
+      ) : (
+        <FunctionalitiesMobile></FunctionalitiesMobile>
+      )}
 
-      <Functionalities />
       <Testimonials />
       <Form />
     </div>

@@ -2,9 +2,11 @@ import { useState } from "react";
 import styles from "./Functionalities.module.css";
 import Tab from "./Tab.jsx";
 import { Element } from "react-scroll";
+import { useMediaQueries } from "../hooks/UseMedia.jsx";
 function Functionalities() {
   const [openTab, setOpenTab] = useState(null);
   const [imageURL, setImageURL] = useState("/home.png");
+
   const functions = [
     {
       num: 1,

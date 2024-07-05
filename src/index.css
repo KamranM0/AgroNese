@@ -14,14 +14,14 @@
 
 @media (max-width: 575px) {
   h1 {
-    font-size: 20px;
+    font-size: 30px;
     margin-left: 15px;
   }
   h2 {
     font-size: 15px;
   }
   p {
-    font-size: 11px;
+    font-size: 14px;
     margin-left: 15px;
   }
   a {
