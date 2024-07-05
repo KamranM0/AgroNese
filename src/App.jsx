@@ -12,7 +12,6 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="form" element={<FormPage />}></Route>
       </Routes>
     </BrowserRouter>
   );

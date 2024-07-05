@@ -1,4 +1,4 @@
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   .services {
     width: 100%;
   }
@@ -15,9 +15,9 @@
     margin-top: 30px;
     margin-left: 15px;
     margin-right: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
@@ -26,7 +26,7 @@
     text-align: left;
     margin-left: 0;
     margin-top: 2px;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .sections img {
@@ -34,6 +34,19 @@
     width: 40vw;
     border-radius: 20px;
     box-shadow: inset 0 0 20px 10px rgba(0, 0, 0, 1);
+  }
+  .sections button {
+    margin-top: 0.3vw;
+    width: 17vw;
+    height: 5vw;
+    font-size: 2.5vw;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.8vw;
+    transition: all 0.3s;
+  }
+  .sections button:hover {
+    background-color: #54ea54;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -50,9 +63,11 @@
     margin-top: 30px;
     margin-left: 15px;
     margin-right: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
@@ -68,6 +83,20 @@
     width: 250px;
     border-radius: 20px;
     box-shadow: inset 0 0 20px 10px rgba(0, 0, 0, 1);
+  }
+  .sections button {
+    margin-top: 0.3vw;
+    width: 13vw;
+    height: 4vw;
+    font-size: 2vw;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 1vw;
+    transition: all 0.3s;
+  }
+
+  .sections button:hover {
+    background-color: #54ea54;
   }
 }
 
@@ -98,12 +127,25 @@
   }
   .sections img {
     position: relative;
-    width: 160px;
+    width: 20vw;
     border-radius: 10px;
+  }
+  .sections button {
+    margin-top: 0.3vw;
+    width: 8vw;
+    height: 2.5vw;
+    font-size: 1.2vw;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.8vw;
+    transition: all 0.3s;
+  }
+  .sections button:hover {
+    background-color: #54ea54;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .services {
     margin-top: 0px;
     width: 100%;
@@ -130,9 +172,22 @@
   }
   .sections img {
     position: relative;
-    width: 200px;
+    width: 20vw;
     border-radius: 20px;
     box-shadow: inset 0 0 20px 10px rgba(0, 0, 0, 1);
+  }
+  .sections button {
+    margin-top: 0.3vw;
+    width: 8vw;
+    height: 2.5vw;
+    font-size: 1.2vw;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.8vw;
+    transition: all 0.3s;
+  }
+  .sections button:hover {
+    background-color: #54ea54;
   }
 }
 
@@ -171,5 +226,18 @@
   .sections img {
     width: 21vw;
     border-radius: 10px;
+  }
+  .sections button {
+    margin-top: 0.3vw;
+    width: 7.5vw;
+    height: 2vw;
+    font-size: 1.1vw;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.8vw;
+    transition: all 0.3s;
+  }
+  .sections button:hover {
+    background-color: #54ea54;
   }
 }

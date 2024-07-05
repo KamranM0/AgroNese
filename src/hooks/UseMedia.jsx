@@ -16,7 +16,7 @@ function useMediaQuery(query) {
   return match;
 }
 export function useMediaQueries() {
-  const lg = useMediaQuery("(min-width: 1100px)");
+  const lg = useMediaQuery("(min-width: 992px)");
   const sm = useMediaQuery("(max-width: 568px)");
 
   return { lg, sm };

@@ -1,4 +1,4 @@
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   .container {
     width: 100%;
     display: flex;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 }
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .container {
     width: 100%;
     display: flex;
@@ -284,7 +284,7 @@
     width: 40px;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .container {
     width: 100%;
     display: flex;
@@ -400,6 +400,7 @@
   }
   .formInputs {
     display: grid;
+    border-radius: 50px;
     background-color: #d5fad5;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
@@ -411,9 +412,10 @@
     font-family: "MyCustomFont";
     width: 250px;
     height: 55px;
-    padding: 8px;
+    padding: 20px;
+    padding-right: 12px;
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 30px;
     border: none;
     font-size: 20px;
   }
@@ -432,22 +434,27 @@
     text-align: center;
     font-size: 17px;
     font-family: "MyCustomFont";
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: none;
   }
   .formInputs .fullWidth {
-    width: 100%;
-    height: 70px;
+    height: 90px;
     grid-column: span 2;
     font-size: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    padding-right: 12px;
   }
   .formInputs textarea {
-    padding: 5px;
     border: none;
     border-radius: 5px;
     font-family: "MyCustomFont";
+    resize: none;
   }
   .formInputs .button {
     height: 50px;
+    width: 100px;
+    padding: 3px;
   }
 }

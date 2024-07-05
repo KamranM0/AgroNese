@@ -5,16 +5,23 @@ import NavLinks from "./NavLinks";
 import { useMediaQueries } from "../hooks/UseMedia";
 import Burger from "./BurgerIcon";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-scroll";
 function NavBar({ toggleIcon, isBurgerOpen, setIsBurgerOpen }) {
   const { lg } = useMediaQueries();
   const navigate = useNavigate();
+
   return lg ? (
     <div className={styles.nav}>
-      <Logo />
+      <Link to="board" smooth={true} offset={-110}>
+        <Logo />
+      </Link>
+
       <NavLinks />
-      <Button type={"primary"} onClick={() => navigate("form")}>
-        Giriş
-      </Button>
+      <Link to="form" smooth={true} offset={-150}>
+        <Button type={"primary"} href="#form">
+          Müraciət et
+        </Button>
+      </Link>
     </div>
   ) : (
     <div className={styles.nav}>
@@ -25,9 +32,11 @@ function NavBar({ toggleIcon, isBurgerOpen, setIsBurgerOpen }) {
           isBurgerOpen={isBurgerOpen}
           toggleIcon={toggleIcon}
         />
-        <Button type={"primary"} onClick={() => navigate("form")}>
-          Giriş
-        </Button>
+        <Link to="form" smooth={true} offset={-150}>
+          <Button type={"primary"} href="#form">
+            Müraciət et
+          </Button>
+        </Link>
       </div>
       {/* <Button type={"primary"}>Giriş</Button> */}
     </div>

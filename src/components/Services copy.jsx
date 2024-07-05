@@ -4,13 +4,13 @@ import ServicesSection from "./ServicesSection";
 function Services() {
   return (
     <Element name="services" className={styles.services}>
-      <div className={`${styles.container}`}>
+      <div className={styles.container}>
         <h1>Xidmətlərimiz</h1>
         <p>
           Bölmələrimizi daha diqqətli araşdıraraq xidmətlərimiz haqqında ətraflı
           məlumat ala bilərsiniz.
         </p>
-        <div className={`${styles.sections}`}>
+        <div className={styles.sections}>
           <ServicesSection imageSrc={"/img1.jpg"}>
             <h2>Əkin təhlili</h2>
           </ServicesSection>

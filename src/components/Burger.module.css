@@ -28,7 +28,7 @@
     border-bottom: 1px black solid;
   }
 }
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .container {
     transition: height 3s ease-in-out;
   }
@@ -61,7 +61,7 @@
     border-bottom: 1px black solid;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .container {
     transition: height 3s ease-in-out;
   }
@@ -91,7 +91,7 @@
     border-bottom: 1px black solid;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .container {
     transition: height 3s ease-in-out;
   }
